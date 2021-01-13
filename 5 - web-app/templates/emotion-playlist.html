@@ -1,0 +1,62 @@
+<! shows about page with spotify link button>
+
+<!DOCTYPE html>
+<!w3schools link: https://www.w3schools.com/css/default.asp>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="<link rel="stylesheet" href="https://use.typekit.net/yfs1fpf.css">">
+<head>
+<style>
+.w3-btn {width:150px;}
+body,h1 {font-family: "futura-pt", sans-serif}
+h1 {font-weight: 700;}
+body {font-weight: 400;}
+
+body, html {height: 100%}
+.bgimg {
+  background-image: url('https://user-images.githubusercontent.com/50106954/104297131-67611d00-54ba-11eb-9148-cfa159aeeca6.png');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+</style>
+<body>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type=text/javascript>
+        $(function() {
+          $('a#test').bind('click', function() {
+            $.getJSON('/background_process_test',
+                function(data) {
+              //do nothing
+            });
+            return false;
+          });
+        });
+</script>
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+
+</div>
+
+<div class="w3-display-middle w3-margin w3-xxxlarge"
+    <h1><center>I'm Mr {{ variable }}.</center></h1>
+    <center><img src="{{ user_image }}" alt="User Image" width="100" height="100"/></center>
+
+<div class='container'>
+    <form>
+        <center><a href=# id=test><button class="w3-button w3-large w3-black w3-round-xxlarge w3-hover-green w3-padding-large">STEP 1: LINK MY SPOTIFY</a></center>
+    </form>
+</div>
+    <center><a href="{{url_for('done')}}" class="w3-button w3-large w3-black w3-round-xxlarge w3-hover-green w3-padding-large">STEP 2: GET GROOVY TUNES</a></center></body>
+</div>
+
+</div>
+
+
+</body>
+<head>
+</html>

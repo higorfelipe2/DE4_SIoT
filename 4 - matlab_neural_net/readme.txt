@@ -1,0 +1,2 @@
+Run 'main_livedata_to_prediction_to_thingspeak' in the background whilst running the main Python script. If get an
+error message saying no variable "emonet", drag the file 'emonet.bak' to the matlab workspace and try again.

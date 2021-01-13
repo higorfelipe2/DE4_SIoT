@@ -1,4 +1,4 @@
-# DE4_SIoT
+<center><h1>Mr Happy's Mood Playlists</h1></center?
 All code necessary to reproduce project, excl. sensitive API and WiFi details. 
 
 <h1>To Run The App:</h3>

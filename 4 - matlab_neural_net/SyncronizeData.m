@@ -7,16 +7,16 @@ clear all
 
 %%Channel Access%
 sensorsChannelID = [1277203];
-sensorsWriteKey = 'XGCVKVKWC0BC46SX';
-sensorsReadKey = "0FSTKU4LJ2ZQV9VS";
+sensorsWriteKey = '';
+sensorsReadKey = '';
 
 emotionsChannelID = [1279893];
-emotionsWriteKey = '2KASG4QDEA07ZEBX';
-emotionsReadKey = '5AYE65MS1DNUDF5V';
+emotionsWriteKey = '';
+emotionsReadKey = '';
 
 syncedChannelID = [1280543];
-syncedWriteKey = 'ESMBMIMYDF1FQFW6';
-syncedReadKey = '8UN9R91PZ812CKWC';
+syncedWriteKey = '';
+syncedReadKey = '';
 
 %%Read Data%%
 [sensorsData,channelInfo] = thingSpeakRead(sensorsChannelID,'OutputFormat','table', 'NumPoints',8000);
@@ -69,81 +69,4 @@ for i = 1:height(emotions)-1
 end
 
 
-%%PSEUDO-DATA FOR TESTING
-%-----------------------------------------------------------------
-%Safe to assume both sensors are synced since Arduino code was set up to
-%only publish when both had available data
-% Time = seconds([1 2 5 7 8 9 10 11])';
-% heartRate = [NaN NaN 63 64 67 1 68 64]';
-% skinResistance = [NaN NaN 2 4 5 1 7 8]';
-% Time2 = seconds([1 4 8 10 11])';
-% emotions = [1 -2 0 3 1]';
-%%-----------------------------------------------------------------
-
-% %%REMOVE ANY SENSOR DATA THAT DOESN'T CORRESPOND TO AN EMOTION DATA
-% %%----------------------------------------------------------------
-% Time2inTime = [];
-% for i = 1:size(Time2)
-%     Time2inTime = ismember(Time2(i,:),Time{:,:});
-% end
-% %%Found the values that DO correspond, so inverse to delete value
-% %%that DO NOT correspond
-% inversedTime2inTime = 1:length(Time);
-% for i = Time2inTime
-%     inversedTime2inTime(i) = [];
-% end
-% for i = flip(inversedTime2inTime)
-%     heartRate(i) = [];
-%     skinResistance(i) = [];
-% end
-% %%----------------------------------------------------------------
-% 
-% %%REMOVE REMAINING EMOTION DATA THAT WASN'T CORRESPONDING TO AN EMOTION
-% %%DATA
-% %%---------------------------------------------------------------------
-% TimeinTime2 = [];
-% for i = 1:size(Time)
-%     TimeinTime2 = [TimeinTime2;find(Time2==Time(i))];
-% end
-% inversedTimeinTime2 = 1:length(Time2);
-% for i = TimeinTime2
-%     inversedTimeinTime2(i) = [];
-% end
-% for i = flip(inversedTimeinTime2)
-%     emotions(i) = [];
-% end
-% %%---------------------------------------------------------------------
-
-
-%%Remove NaNs - Ignore, better method used above
-%%-----------------------------------------------------------------
-% NaNs1 = find(isnan(heartRate));
-% for i = NaNs1
-%     Time(i) = [];
-%     heartRate(i) = [];
-%     skinResistance(i) = [];
-%     emotions(i) = [];
-% end
-% NaNs2 = find(isnan(emotions));
-% for i = NaNs2
-%     Time(i) = [];
-%     heartRate(i) = [];
-%     skinResistance(i) = [];
-%     emotions(i) = [];
-% end
-
-% %%sanity check
-% %%---------------------------------------------------------------------
-% %%disp("Emotions: ")
-% %%disp(emotions)
-% %%disp("Heart Rates: ")
-% %%disp(heartRate)
-% %%disp("SkinResistance")
-% %%disp(skinResistance)
-% %%disp(timeStamp)
-% %%---------------------------------------------------------------------
-% 
-% %%Code analysis%%
-% %%analyzedData = data;
-% 
 

@@ -10,7 +10,7 @@ import requests
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 def getEmotion():
     CHANNEL_ID = "1279893"
-    #READ_API_KEY = "5AYE65MS1DNUDF5V"
+    #READ_API_KEY = ""
     
     call = 'https://api.thingspeak.com/channels/'+CHANNEL_ID+'/fields/2/last.json'
     

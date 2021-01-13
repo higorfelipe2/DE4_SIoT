@@ -12,7 +12,7 @@ All code necessary to reproduce project, excl. sensitive API and WiFi details.
 
 <h3>Neural net</h3>
 
-* Neural Net trained using synced data and [matlab](https://github.com/higorfelipe2/DE4_SIoT/blob/main/4%20-%20matlab_neural_net/make_neural_net.mlx)
+* Neural Net trained using synced data, called within a [matlab script](https://github.com/higorfelipe2/DE4_SIoT/blob/main/4%20-%20matlab_neural_net/make_neural_net.mlx)
 
 <h3>Timeseries data analysis</h3>
 

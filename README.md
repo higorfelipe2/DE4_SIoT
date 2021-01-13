@@ -1,4 +1,4 @@
-<center><h1>Mr Happy's Mood Playlists</h1></center?
+# Mr Happy's Mood Playlists
 All code necessary to reproduce project, excl. sensitive API and WiFi details. 
 
 <h2>To Run The App:</h3>

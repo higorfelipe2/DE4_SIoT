@@ -1,9 +1,9 @@
 # Mr Happy's Mood Playlists
 All code necessary to reproduce project, excl. sensitive API and WiFi details. 
 
-<center><h2>Full Project Report</h2></center>
+<center>Full Project Report</center>
 
-<center><h2>App Demo Video</h2></center>
+<center>App Demo Video</center>
 
 
 <h2>Data Collection:</h2>

@@ -1,6 +1,11 @@
 # Mr Happy's Mood Playlists
 All code necessary to reproduce project, excl. sensitive API and WiFi details. 
 
+<center><h2>Full Project Report</h2></center>
+
+<center><h2>App Demo Video</h2></center>
+
+
 <h2>Data Collection:</h2>
 
 1. Sensor data collected and published to ThingSpeak using [arduino script](https://github.com/higorfelipe2/DE4_SIoT/blob/main/2%20-%20sensor_data_to_thingspeak/Final/sensing-and-publishing-ecg.ino)
@@ -19,10 +24,11 @@ All code necessary to reproduce project, excl. sensitive API and WiFi details.
 * All analysis available to run, without secret code needed, using [live matlab script](https://github.com/higorfelipe2/DE4_SIoT/blob/main/3%20-%20data_analysis/data_analysis.mlx)
 
 
-<h2>To Run The App:</h3>
+<h2>To Run The App:</h2>
 
 * Run matlab [neural net algorith](https://github.com/higorfelipe2/DE4_SIoT/blob/main/4%20-%20matlab_neural_net/use_neural_net.mlx)
  and [main.py](https://github.com/higorfelipe2/DE4_SIoT/blob/main/5%20-%20web-app/main.py) simutaneoulsy for full app functionality.
 The necessary Spotify API auth codes are not included, contact the author for directions.
 * Video showing app demo available [on my website](https://www.higoralves.com/mr-happy-app)
  
+

@@ -1,9 +1,10 @@
 # <p align="center"> Mr Happy's Mood Playlists
 <p align="center">Repository containing all code necessary to reproduce project, excl. sensitive API and WiFi details. 
 
-<p align="center">[Full Project Report]
+##Full Project Report
  
-<p align="center"> [App Demo Video](http://www.higoralves.com/mr-happy-app)
+##Demo
+[App Demo Video](http://www.higoralves.com/mr-happy-app)
 
 
 <h2>Data Collection:</h2>

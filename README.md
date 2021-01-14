@@ -1,7 +1,7 @@
 # <p align="center"> Mr Happy's Mood Playlists
 <p align="center">Repository containing all code necessary to reproduce project, excl. sensitive API and WiFi details. 
 
-[Full Project Report](https://github.com/higorfelipe2/DE4_SIoT/blob/main/project_report)
+[Full Project Report](https://github.com/higorfelipe2/DE4_SIoT/blob/main/Higor_Alves_de_Freitas-SIOT_Report.pdf)
  
 [App Demo Video](http://www.higoralves.com/mr-happy-app)
 

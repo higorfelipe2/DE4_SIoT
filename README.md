@@ -1,5 +1,5 @@
-# Mr Happy's Mood Playlists
-All code necessary to reproduce project, excl. sensitive API and WiFi details. 
+# <p align="center"> Mr Happy's Mood Playlists
+<p align="center">All code necessary to reproduce project, excl. sensitive API and WiFi details. 
 
 <p align="center">Full Project Report
  

@@ -3,7 +3,6 @@
 
 ##Full Project Report
  
-<p align="center">
 [App Demo Video](http://www.higoralves.com/mr-happy-app)
 
 
